@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'dialog.ui'
 #
-# Created: Mon Dec  9 11:41:23 2013
+# Created: Mon Dec  9 13:23:21 2013
 #      by: pyside-uic 0.2.15 running on PySide 1.2.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -34,12 +34,14 @@ class Ui_Dialog(object):
         self.label_2.setObjectName("label_2")
         self.gridLayout.addWidget(self.label_2, 1, 1, 1, 1)
         self.lineEdit_server = QtGui.QLineEdit(self.gridLayoutWidget)
+        self.lineEdit_server.setText("")
         self.lineEdit_server.setObjectName("lineEdit_server")
         self.gridLayout.addWidget(self.lineEdit_server, 0, 2, 1, 1)
         self.label_3 = QtGui.QLabel(self.gridLayoutWidget)
         self.label_3.setObjectName("label_3")
         self.gridLayout.addWidget(self.label_3, 2, 1, 1, 1)
         self.lineEdit_db = QtGui.QLineEdit(self.gridLayoutWidget)
+        self.lineEdit_db.setText("")
         self.lineEdit_db.setObjectName("lineEdit_db")
         self.gridLayout.addWidget(self.lineEdit_db, 1, 2, 1, 1)
         self.label = QtGui.QLabel(self.gridLayoutWidget)
@@ -47,6 +49,7 @@ class Ui_Dialog(object):
         self.label.setObjectName("label")
         self.gridLayout.addWidget(self.label, 0, 1, 1, 1)
         self.lineEdit_password = QtGui.QLineEdit(self.gridLayoutWidget)
+        self.lineEdit_password.setText("")
         self.lineEdit_password.setEchoMode(QtGui.QLineEdit.Password)
         self.lineEdit_password.setObjectName("lineEdit_password")
         self.gridLayout.addWidget(self.lineEdit_password, 2, 2, 1, 1)
@@ -75,10 +78,7 @@ class Ui_Dialog(object):
         Dialog.setWindowTitle(QtGui.QApplication.translate("Dialog", "pyLotusNotifier", None, QtGui.QApplication.UnicodeUTF8))
         self.groupBox.setTitle(QtGui.QApplication.translate("Dialog", "Lotus Notes Configuration", None, QtGui.QApplication.UnicodeUTF8))
         self.label_2.setText(QtGui.QApplication.translate("Dialog", "Path to NSF file:", None, QtGui.QApplication.UnicodeUTF8))
-        self.lineEdit_server.setText(QtGui.QApplication.translate("Dialog", "SRVG07A", None, QtGui.QApplication.UnicodeUTF8))
         self.label_3.setText(QtGui.QApplication.translate("Dialog", "Password:", None, QtGui.QApplication.UnicodeUTF8))
-        self.lineEdit_db.setText(QtGui.QApplication.translate("Dialog", "/anwendungen/vwmobileapp_Email.nsf", None, QtGui.QApplication.UnicodeUTF8))
         self.label.setText(QtGui.QApplication.translate("Dialog", "Server:", None, QtGui.QApplication.UnicodeUTF8))
-        self.lineEdit_password.setText(QtGui.QApplication.translate("Dialog", "va3ETGw6", None, QtGui.QApplication.UnicodeUTF8))
 
 from . import rsc_rc
