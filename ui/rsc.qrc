@@ -1,0 +1,31 @@
+<RCC>
+  <qresource prefix="lotus">
+    <file>img/pylotus_16px.png</file>
+    <file>img/pylotus_24px.png</file>
+    <file>img/pylotus_32px.png</file>
+    <file>img/pylotus_64px.png</file>
+    <file>img/pylotus_128px.png</file>
+    <file>img/pylotus_256px.png</file>
+    <file>img/python_256.png</file>
+    <file>img/notes32b16px.png</file>
+    <file>img/notes32b32px.png</file>
+    <file>img/server_32b16px.png</file>
+    <file>img/server_32b32px.png</file>
+    <file>img/admin_32b16px.png</file>
+    <file>img/admin_32b32px.png</file>
+    <file>img/debugger_32b16px.png</file>
+    <file>img/debugger_32b32px.png</file>
+    <file>img/notesminder32b16px.png</file>
+    <file>img/notesminder32b32px.png</file>
+    <file>img/admin_32b64px.png</file>
+    <file>img/admin_32b256px.png</file>
+    <file>img/debugger_32b64px.png</file>
+    <file>img/debugger_32b256px.png</file>
+    <file>img/notes32b64p.png</file>
+    <file>img/notes32b256p.png</file>
+    <file>img/notesminder32b64px.png</file>
+    <file>img/notesminder32b256px.png</file>
+    <file>img/server_32b64px.png</file>
+    <file>img/server_32b256px.png</file>
+  </qresource>
+</RCC>
